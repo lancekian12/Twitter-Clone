@@ -18,6 +18,10 @@ use Symfony\Component\HttpKernel\Profiler\Profile;
 */
 
 Route::get('/', [DashboardController::class, 'index']);
+Route::get('/terms', function() {
+    return view('terms');
+});
+
 Route::get('/profile', [ProfileController::class, 'index']);
 
 
