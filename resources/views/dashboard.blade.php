@@ -48,6 +48,10 @@
 
                 </div>
             @endforeach
+            <div class="mt-3">
+                {{ $ideas->links() }}
+
+            </div>
 
         </div>
         <div class="col-3">
