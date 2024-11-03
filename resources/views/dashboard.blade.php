@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="col-6">
-
+            @include('shared.sucess_message')
             @include('shared.submit_idea')
             <hr>
             @foreach ($ideas as $idea)
