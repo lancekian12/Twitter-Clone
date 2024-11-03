@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "format": "prettier --write \"**/*.{php,js,css,html}\""
     },
     "devDependencies": {
         "axios": "^1.1.2",
@@ -10,5 +11,8 @@
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "prettier": "^3.3.3"
     }
 }
